@@ -5,7 +5,7 @@ A subsequent function restores the files to their original order from the tempor
 This can be useful for scenarios where you want to shuffle and rename a batch of images/documents for creative purposes
 ------------------------------------------------------------------------------------------------------------------------
 HOW TO USE
-
+Make sure you have python installed, I'm using 3.10.9
 Put the documents you want shuffled in the "documents" folder and run Shuffle.py.
 By default the program only does .jpg, jpeg, png and .gif, but this can easily be changed by editing Shuffle.py with notepad and 
 adding it to line 13 (image_files = [file for file in files if file.endswith(('.jpg', '.jpeg', '.png', '.gif'))])
